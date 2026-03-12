@@ -23,6 +23,7 @@ function PostList() {
         fetchPost();
     }, [])
 
+
     return (
         <div className="postList">
             <h2>Les 10er posts</h2>
@@ -40,6 +41,8 @@ function PostList() {
                     ))}
                 </ul>
             )}
+
+            <p>Nbr de posts : {posts.length}</p>
         </div>
     )
 }
