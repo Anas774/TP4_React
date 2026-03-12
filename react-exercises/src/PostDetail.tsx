@@ -37,9 +37,9 @@ function PostDetail() {
 
             {post && (
                 <article>
-                    <Link to="/posts">Retour à la liste des posts</Link>
                     <h1>{post.title}</h1>
                     <p>{post.body}</p>
+                    <Link to="/posts">Retour à la liste des posts</Link>
                 </article>
             )}
         </div>
